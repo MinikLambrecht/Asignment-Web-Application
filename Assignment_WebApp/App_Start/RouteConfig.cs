@@ -13,6 +13,9 @@ namespace Assignment_WebApp
             var settings = new FriendlyUrlSettings();
             settings.AutoRedirectMode = RedirectMode.Permanent;
             routes.EnableFriendlyUrls(settings);
+
+            routes.MapPageRoute("Home", "Home", "~/Default.aspx");
+            routes.MapPageRoute("BrigerBolcher", "Home/Projects/Birger Bolcher", "~/Projects/BirgerBolcher.aspx");
         }
     }
 }

@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Assignment_WebApp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Pyrocore")]
 [assembly: AssemblyProduct("Assignment_WebApp")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCopyright("Pyrocore©2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
