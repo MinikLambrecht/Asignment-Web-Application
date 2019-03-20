@@ -15,6 +15,8 @@ namespace Assignment_WebApp
             routes.EnableFriendlyUrls(settings);
 
             routes.MapPageRoute("Home", "Home", "~/Default.aspx");
+
+            routes.MapPageRoute("ProjectPage", "Home/Projects", "~/ProjectPage.aspx");
             routes.MapPageRoute("BrigerBolcher", "Home/Projects/Birger Bolcher", "~/Projects/BirgerBolcher.aspx");
         }
     }

@@ -111,6 +111,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\PageNotFound.css" />
+    <Content Include="Fav.ico" />
+    <Content Include="PageNotFound.aspx" />
+    <Content Include="ProjectPage.aspx" />
     <Content Include="Projects\BirgerBolcher.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -119,7 +123,6 @@
     <Content Include="Content\Images\VirksomhedQR.png" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
-    <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -167,6 +170,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="PageNotFound.aspx.cs">
+      <DependentUpon>PageNotFound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageNotFound.aspx.designer.cs">
+      <DependentUpon>PageNotFound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectPage.aspx.cs">
+      <DependentUpon>ProjectPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProjectPage.aspx.designer.cs">
+      <DependentUpon>ProjectPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Projects\BirgerBolcher.aspx.cs">
       <DependentUpon>BirgerBolcher.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
