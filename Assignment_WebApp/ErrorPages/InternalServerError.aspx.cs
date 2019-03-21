@@ -5,13 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Assignment_WebApp
+namespace Assignment_WebApp.ErrorPages
 {
-    public partial class _Default : Page
+    public partial class InternalServerError : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

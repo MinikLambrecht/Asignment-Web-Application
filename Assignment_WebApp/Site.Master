@@ -14,6 +14,7 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link rel="icon" href="~/Fav.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
 
 </head>
 <body>
@@ -47,7 +48,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" runat="server" href="Home">
-                        <span>Project Archive</span>
+                        <span>The Project Archive</span>
                     </a>
                 </div>
                 <div class="navbar-collapse collapse">
@@ -58,15 +59,19 @@
                 </div>
             </div>
         </div>
+
+        <br />
+
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
+
             <hr />
+
             <footer>
                 <p>Pyrocore &copy; <%: DateTime.Now.Year %></p>
             </footer>
         </div>
-
     </form>
 </body>
 </html>

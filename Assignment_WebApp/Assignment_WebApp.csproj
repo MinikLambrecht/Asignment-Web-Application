@@ -111,9 +111,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Home.css" />
     <Content Include="Content\PageNotFound.css" />
+    <Content Include="Content\ProjectPage.css" />
+    <Content Include="ErrorPages\InternalServerError.aspx" />
     <Content Include="Fav.ico" />
-    <Content Include="PageNotFound.aspx" />
+    <Content Include="ErrorPages\PageNotFound.aspx" />
     <Content Include="ProjectPage.aspx" />
     <Content Include="Projects\BirgerBolcher.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -170,11 +173,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="PageNotFound.aspx.cs">
+    <Compile Include="ErrorPages\InternalServerError.aspx.cs">
+      <DependentUpon>InternalServerError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPages\InternalServerError.aspx.designer.cs">
+      <DependentUpon>InternalServerError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPages\PageNotFound.aspx.cs">
       <DependentUpon>PageNotFound.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PageNotFound.aspx.designer.cs">
+    <Compile Include="ErrorPages\PageNotFound.aspx.designer.cs">
       <DependentUpon>PageNotFound.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProjectPage.aspx.cs">

@@ -1,0 +1,30 @@
+﻿.title {
+    background-color: silver;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.badge-finished {
+    background-color: limegreen;
+    font-weight: bold;
+}
+
+.badge-inprogress {
+    background-color: dodgerblue;
+    font-weight: bold;
+}
+
+.badge-deadline {
+    background-color: maroon;
+    font-weight: bold;
+}
+
+.badge-duration {
+    background-color: steelblue;
+    font-weight: bold;
+}
+
+.badge-type {
+    background-color: darkviolet;
+    font-weight: bold;
+}

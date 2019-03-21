@@ -1,0 +1,18 @@
+﻿.panel-heading .accordion-toggle:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e113";
+    float: right;
+    color: grey;
+}
+
+.panel-heading .accordion-toggle.collapsed:after {
+    content: "\e114";
+}
+
+.badge-level {
+    background-color: darkorange;
+}
+
+.badge-grade {
+    background-color: darkgreen;
+}
