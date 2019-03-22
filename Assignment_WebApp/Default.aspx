@@ -150,12 +150,12 @@
         <div class="panel panel-default">
             <div class="panel-heading" >
                 <h4 class="panel-title">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#buissnesscard">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#Businesscard">
                     Buissness Card
                 </a>
                 </h4>
             </div>
-            <div id="buissnesscard" class="panel-collapse collapse out">
+            <div id="Businesscard" class="panel-collapse collapse out">
                 <div class="panel-body">
                     
                 </div>

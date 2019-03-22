@@ -4,6 +4,11 @@
     font-weight: bold;
 }
 
+.titleHeader {
+    font-size: larger;
+    font-weight: bold;
+}
+
 .badge-finished {
     background-color: limegreen;
     font-weight: bold;

@@ -69,7 +69,7 @@
             <hr />
 
             <footer>
-                <p>Pyrocore &copy; <%: DateTime.Now.Year %></p>
+                <p>Copyright &copy; <%: DateTime.Now.Year %> Minik Gaarde Lambrecht</p>
             </footer>
         </div>
     </form>
