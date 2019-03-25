@@ -13,7 +13,7 @@
                 <div class="list-group-item title">Main course 1</div>
 
                 <a href="Projects/Birger Bolcher" class="list-group-item list-group-item-success">
-                    Birger Bolcher
+                    <p class="titleHeader">Birger Bolcher</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
                         <span class="badge badge-duration">Duration: 1 Day(s)</span>
@@ -24,7 +24,7 @@
                 </a>
 
                 <a href="Projects/#" class="list-group-item list-group-item-info">
-                    Portfolio hjemmesiden og visitkort
+                    <p class="titleHeader">Portfolio hjemmesiden og visitkort</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
                         <span class="badge badge-duration">Duration: 2 Day(s)</span>
@@ -38,7 +38,7 @@
                 <div class="list-group-item title">Main course 2</div>
 
                 <a href="Projects" class="list-group-item list-group-item-info">
-                    Bilbixen Brugtvognsforretning
+                    <p class="titleHeader">Bilbixen Brugtvognsforretning</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
                         <span class="badge badge-duration">Duration: 0 Day(s)</span>
@@ -48,7 +48,7 @@
                 </a>
 
                 <a href="Projects" class="list-group-item list-group-item-info">
-                    Route 66
+                    <p class="titleHeader">Route 66</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
                         <span class="badge badge-duration">Duration: 0 Day(s)</span>
@@ -58,7 +58,7 @@
                 </a>
 
                 <a href="Projects" class="list-group-item list-group-item-info">
-                    Bilbixen - En huskeliste of fritekstsøgning
+                    <p class="titleHeader">Bilbixen - En huskeliste of fritekstsøgning</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Mandatory</span>
                         <span class="badge badge-duration">Duration: 0 Day(s)</span>
@@ -72,7 +72,7 @@
                 <div class="list-group-item title">Main course 3</div>
 
                 <a href="Projects" class="list-group-item list-group-item-info">
-                    Bolcher - Database
+                    <p class="titleHeader">Bolcher - Database</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
                         <span class="badge badge-duration">Duration: 0 Day(s)</span>
@@ -82,7 +82,7 @@
                 </a>
 
                 <a href="Projects" class="list-group-item list-group-item-info">
-                    En bestillingsformular for biludlejningsfirma
+                    <p class="titleHeader">bestillingsformular for biludlejningsfirma</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
                         <span class="badge badge-duration">Duration: 0 Day(s)</span>
