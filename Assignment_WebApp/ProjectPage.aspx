@@ -1,7 +1,11 @@
 ﻿<%@ Page Title="Projects" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProjectPage.aspx.cs" Inherits="Assignment_WebApp.About" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content ContentPlaceHolderID="head" runat="server">
     <link href="/Content/ProjectPage.css" rel="stylesheet" type="text/css" />
+</asp:Content>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    
 
     <h1><%: Title %></h1>
     

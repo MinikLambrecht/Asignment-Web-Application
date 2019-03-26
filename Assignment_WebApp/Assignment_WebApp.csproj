@@ -112,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Home.css" />
+    <Content Include="Content\P1Style.css" />
     <Content Include="Content\PageNotFound.css" />
     <Content Include="Content\ProjectPage.css" />
     <Content Include="ErrorPages\InternalServerError.aspx" />

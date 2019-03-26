@@ -17,7 +17,15 @@
     background-color: darkgreen;
 }
 
-.headear {
+.header {
     font-size: larger;
     font-weight: bold;
+}
+
+.info {
+    content: "\f059";
+}
+
+.info:hover {
+    content: "\f059";
 }

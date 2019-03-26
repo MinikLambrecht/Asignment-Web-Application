@@ -1,5 +1,9 @@
 ﻿<%@ Page Title="Projects - Birger Bolcher" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="BirgerBolcher.aspx.cs" Inherits="Assignment_WebApp.About" %>
 
+<asp:Content ContentPlaceHolderID="head" runat="server">
+    <link href="/Content/P1Style.css" rel='stylesheet' type='text/css' />
+</asp:Content>
+
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
     <h3>Your application description page.</h3>
