@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Assignment_WebApp")]
+[assembly: AssemblyTitle("The Archive")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Pyrocore")]
-[assembly: AssemblyProduct("Assignment_WebApp")]
-[assembly: AssemblyCopyright("Pyrocore©2019")]
+[assembly: AssemblyCompany("Minik Gaarde Lambrecht")]
+[assembly: AssemblyProduct("Webapp")]
+[assembly: AssemblyCopyright("Copyright © Minik Gaarde Lambrecht 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

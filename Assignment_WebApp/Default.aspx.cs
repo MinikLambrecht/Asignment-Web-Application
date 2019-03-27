@@ -13,12 +13,5 @@ namespace Assignment_WebApp
         {
             
         }
-
-        public void btnClick01(object sender, EventArgs e)
-        {
-            var btn = sender as Button;
-
-            btn.CssClass = "bob";
-        }
     }
 }

@@ -1,19 +1,9 @@
 ﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Assignment_WebApp._Default" %>
 
-<asp:Content ContentPlaceHolderID="head" runat="server">
-    <link href="/Content/Home.css" rel="stylesheet" type="text/css" />
-</asp:Content>
-
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <link href="/Content/Home.css" rel="stylesheet" type="text/css" />
 
     <div class="container">
-        <asp:UpdatePanel runat="server">
-            <ContentTemplate>
-                <button onclick="btnClick01">
-                    test
-                </button>
-            </ContentTemplate>
-        </asp:UpdatePanel>
         <div class="panel-group" id="accordion">
             <div class="panel panel-default">
                 <div class="panel-heading">

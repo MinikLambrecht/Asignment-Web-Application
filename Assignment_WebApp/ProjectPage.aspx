@@ -1,11 +1,7 @@
 ﻿<%@ Page Title="Projects" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProjectPage.aspx.cs" Inherits="Assignment_WebApp.About" %>
 
-<asp:Content ContentPlaceHolderID="head" runat="server">
-    <link href="/Content/ProjectPage.css" rel="stylesheet" type="text/css" />
-</asp:Content>
-
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    
+    <link href="/Content/ProjectPage.css" rel="stylesheet" type="text/css" />
 
     <h1><%: Title %></h1>
     
@@ -31,7 +27,7 @@
                     <p class="titleHeader">Portfolio hjemmesiden og visitkort</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
-                        <span class="badge badge-duration">Duration: 2 Day(s)</span>
+                        <span class="badge badge-duration">Duration: 6 Day(s)</span>
                         <span class="badge badge-deadline">Deadline: 14 Day(s)</span>
                         <span class="badge badge-inprogress">Status: In Progress</span>
                      </div>
@@ -117,8 +113,6 @@
             
             <div class="list-group">
                 <div class="list-group-item title" >Main course 6</div>
-
-            
             </div>
         </div>
     </div>

@@ -22,6 +22,10 @@
     font-weight: bold;
 }
 
+.test {
+    background-color: purple;
+}
+
 .info {
     content: "\f059";
 }
