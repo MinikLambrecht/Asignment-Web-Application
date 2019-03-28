@@ -10,14 +10,20 @@ namespace Assignment_WebApp
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            var settings = new FriendlyUrlSettings();
-            settings.AutoRedirectMode = RedirectMode.Permanent;
+            var settings = new FriendlyUrlSettings
+            {
+                AutoRedirectMode = RedirectMode.Permanent
+            };
+
             routes.EnableFriendlyUrls(settings);
 
             routes.MapPageRoute("Home", "Home", "~/Default.aspx");
 
             routes.MapPageRoute("ProjectPage", "Home/Projects", "~/ProjectPage.aspx");
             routes.MapPageRoute("BrigerBolcher", "Home/Projects/Birger Bolcher", "~/Projects/BirgerBolcher.aspx");
+
+            routes.MapPageRoute("Register", "Home/Register", "~/Register.aspx");
+            routes.MapPageRoute("Login", "Home/Login", "~/Login.aspx");
         }
     }
 }
