@@ -65,7 +65,7 @@
             </div>
 
             <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="gradesHeader">
+                <div class="panel-heading">
                     <h4 class="panel-title">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#grades">
                         <strong>Grades</strong>
@@ -76,7 +76,7 @@
                     <div class="panel-body">
                         <ul>
                             <li>
-                                <strong>Client Side Programming</strong>
+                                <h4><strong>Client Side Programming</strong></h4>
                                 <span class="badge badge-level">Level: Advanced</span>
                                 <span class="badge badge-grade">Grade: 10 / B</span>
                             </li>

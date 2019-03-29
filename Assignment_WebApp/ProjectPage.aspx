@@ -5,15 +5,15 @@
 
     <h1><%: Title %></h1>
     
-    <hr />
+    <br />
 
     <div class="container">
         <div class="list-group">
             <div class="list-group">
                 <div class="list-group-item title">Main course 1</div>
 
-                <a href="Projects/Birger Bolcher" class="list-group-item list-group-item-success">
-                    <p class="titleHeader">Birger Bolcher</p>
+                <a href="Projects/Birger Bolcher" class="list-group-item">
+                    <p class="projectTitle">Birger Bolcher</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
                         <span class="badge badge-duration">Duration: 1 Day(s)</span>
@@ -23,8 +23,8 @@
 
                 </a>
 
-                <a href="Projects/#" class="list-group-item list-group-item-info">
-                    <p class="titleHeader">Portfolio hjemmesiden og visitkort</p>
+                <a href="Projects/#" class="list-group-item">
+                    <p class="projectTitle">Portfolio hjemmesiden og visitkort</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
                         <span class="badge badge-duration">Duration: 6 Day(s)</span>
@@ -37,8 +37,8 @@
             <div class="list-group">
                 <div class="list-group-item title">Main course 2</div>
 
-                <a href="Projects" class="list-group-item list-group-item-info">
-                    <p class="titleHeader">Bilbixen Brugtvognsforretning</p>
+                <a href="Projects" class="list-group-item">
+                    <p class="projectTitle">Bilbixen Brugtvognsforretning</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
                         <span class="badge badge-duration">Duration: 0 Day(s)</span>
@@ -47,8 +47,8 @@
                     </div>
                 </a>
 
-                <a href="Projects" class="list-group-item list-group-item-info">
-                    <p class="titleHeader">Route 66</p>
+                <a href="Projects" class="list-group-item">
+                    <p class="projectTitle">Route 66</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
                         <span class="badge badge-duration">Duration: 0 Day(s)</span>
@@ -57,8 +57,8 @@
                     </div>
                 </a>
 
-                <a href="Projects" class="list-group-item list-group-item-info">
-                    <p class="titleHeader">Bilbixen - En huskeliste of fritekstsøgning</p>
+                <a href="Projects" class="list-group-item">
+                    <p class="projectTitle">Bilbixen - En huskeliste of fritekstsøgning</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Mandatory</span>
                         <span class="badge badge-duration">Duration: 0 Day(s)</span>
@@ -71,8 +71,8 @@
             <div class="list-group">
                 <div class="list-group-item title">Main course 3</div>
 
-                <a href="Projects" class="list-group-item list-group-item-info">
-                    <p class="titleHeader">Bolcher - Database</p>
+                <a href="Projects" class="list-group-item">
+                    <p class="projectTitle">Bolcher - Database</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
                         <span class="badge badge-duration">Duration: 0 Day(s)</span>
@@ -81,8 +81,8 @@
                     </div>
                 </a>
 
-                <a href="Projects" class="list-group-item list-group-item-info">
-                    <p class="titleHeader">bestillingsformular for biludlejningsfirma</p>
+                <a href="Projects" class="list-group-item">
+                    <p class="projectTitle">bestillingsformular for biludlejningsfirma</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
                         <span class="badge badge-duration">Duration: 0 Day(s)</span>
@@ -95,9 +95,8 @@
             <div class="list-group">
                 
             <div class="list-group-item title">Main course 4</div>
-                
-                <a href="Projects" class="list-group-item list-group-item-info">
-                    <p class="titleHeader">Billetsystem</p>
+                <a href="Projects" class="list-group-item">
+                    <p class="projectTitle">Billetsystem</p>
                     <div class="d-flex justify-content-end">
                         <span class="badge badge-type">Type: Required</span>
                         <span class="badge badge-duration">Duration: 0 Day(s)</span>

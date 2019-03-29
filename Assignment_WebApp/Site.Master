@@ -79,9 +79,9 @@
                 <asp:ContentPlaceHolder ID="MainContent" runat="server">
                 </asp:ContentPlaceHolder>
 
-                <hr />
+                <br />
 
-                <footer>
+                <footer class="footer">
                     <p>Copyright &copy; <%: DateTime.Now.Year %> Minik Gaarde Lambrecht</p>
                 </footer>
             </div>

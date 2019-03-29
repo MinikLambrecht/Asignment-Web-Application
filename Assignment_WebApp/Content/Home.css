@@ -1,8 +1,23 @@
-﻿.panel-heading .accordion-toggle:after {
+﻿.panel-default {
+    border: none;
+}
+
+.panel-default .panel-heading {
+    background-color: cadetblue;
+    border: none;
+}
+
+.panel-default .panel-heading .panel-title {
+    color: white;
+    font-size: x-large;
+}
+
+.panel-heading .accordion-toggle:after {
     font-family: 'Glyphicons Halflings';
     content: "\e113";
     float: right;
-    color: grey;
+    color: white;
+    background-color: transparent;
 }
 
 .panel-heading .accordion-toggle.collapsed:after {
@@ -20,10 +35,6 @@
 .header {
     font-size: larger;
     font-weight: bold;
-}
-
-.test {
-    background-color: purple;
 }
 
 .info {

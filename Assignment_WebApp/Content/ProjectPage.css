@@ -1,12 +1,23 @@
-﻿.title {
-    background-color: silver;
-    font-size: larger;
+﻿h1 {
+    color: white;
+    text-shadow: 2px 4px 6px #000000;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+.title {
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    font-size: x-large;
     font-weight: bold;
 }
 
-.titleHeader {
+.projectTitle {
     font-size: larger;
     font-weight: bold;
+    color: black;
 }
 
 .badge-finished {

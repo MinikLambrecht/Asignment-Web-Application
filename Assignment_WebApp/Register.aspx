@@ -1,27 +1,30 @@
 ﻿<%@ Page Title="Register" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="Assignment_WebApp.Register" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container">
-        <div class="form-group">
-            <label for="Username">Username</label>
-            <input type="text" class="form-control" id="Username" placeholder="Enter Username" runat="server" />
-          </div>
+    <link href="/Content/Register.css" rel="stylesheet" type="text/css" />
 
-          <div class="form-group">
-            <label for="Password">Password</label>
-            <input type="password" class="form-control" id="Password" placeholder="Password" runat="server" />
-          </div>
+    <div class="wrapper">
+        <div id="formContent">
+            <!-- Tabs Titles -->
 
-          <div class="form-group">
-            <label for="ConfirmPassword">Confirm Password</label>
-            <input type="password" class="form-control" id="ConfirmPassword" placeholder="Password" />
-          </div>
+            <!-- Icon -->
+            <div>
+                <h1><i class="fas fa-user-plus"></i> Register</h1> <br />
+            </div>
 
-          <div class="form-group">
-            <label for="Email">Email address</label>
-            <input type="email" class="form-control" id="Email" placeholder="Enter email" runat="server" />
-          </div>
+            <!-- Login Form -->
+            <form>
+                <input type="text" id="Username" placeholder="Username" runat="server" />
+                <input type="password" id="Password" placeholder="Password" runat="server" />
+                <input type="password" id="ConfirmPassword" placeholder="Confirm Password" runat="server" />
+                <input type="email" id="Email" placeholder="Email" runat="server" />
+                <input type="submit" class="btn btn-primary btn-lg" value="Log In">
+            </form>
 
-          <button type="submit" class="btn btn-primary">Register</button>
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <a class="underlineHover" href="#">Forgot Password?</a>
+            </div>
+        </div>
     </div>
 </asp:Content>
