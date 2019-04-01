@@ -32,6 +32,7 @@ namespace Assignment_WebApp.Helpers
             cryptoStream.Close();
             return Convert.ToBase64String(cipherTextBytes);
         }
+
         //Decrypt
         public static string DecryptString(string cipherText, string passPhrase)
         {

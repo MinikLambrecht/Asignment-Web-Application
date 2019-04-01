@@ -13,13 +13,22 @@ namespace Assignment_WebApp {
     public partial class Login {
         
         /// <summary>
-        /// User control.
+        /// ErrorLabel_SignIp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText User;
+        protected global::System.Web.UI.WebControls.Label ErrorLabel_SignIp;
+        
+        /// <summary>
+        /// Username control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText Username;
         
         /// <summary>
         /// Password control.
